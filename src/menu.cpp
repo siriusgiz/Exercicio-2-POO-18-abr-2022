@@ -108,7 +108,31 @@ FornoMenu::~FornoMenu(){}
 void FornoMenu::generate_menu()
 {
 
-    
+    while(true)
+    {
+        this->decoration(1);
+        this->decoration(1);
+        cout << this->get_title() << endl;
+        this->decoration(1);
+        this->decoration(1);
+
+        cout << "\n";
+
+        cout << "Selecione as opções: " << endl;
+        cout << "Nenhum" << endl;
+        cout << "Forno Genérico" << endl;
+        cout << "Forno Eletrico" << endl;
+        cout << "Forno a Lenha" << endl;
+        cout << "[Escreva os nome separados com '_']" << endl;
+
+
+        string options_selected;
+        getline(cin, options_selected);
+
+        
+
+        
+    }
 
 }
 

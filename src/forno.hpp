@@ -35,6 +35,7 @@ class FornoALenha: public Forno
 };
 
 enum fornos{
+    Nenhum,
     Forno,
     Fono_elerico,
     Fono_a_lenha
